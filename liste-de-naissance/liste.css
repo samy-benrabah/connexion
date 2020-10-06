@@ -11,12 +11,14 @@ html, body
 }
 body
 {
-	/*display: flex;*/
-	/*flex-direction: column;*/
+	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	background:linear-gradient(#ab1010,#c50eb2,#8800ff);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	
+	/*width: 100%;*/
 
 }
 
@@ -25,6 +27,14 @@ header
 	background: conic-gradient(#833ab4,#ea1dfd,#e88f12);
 	border-radius: 5px;
 	/*height: 80px;*/
+	/*width: 100%;*/
+}
+footer
+{
+	/*display: flex;
+	justify-content: space-between;*/
+	align-content: center;
+
 }
 h1
 {
@@ -36,6 +46,7 @@ h1
 main{
 	display: flex;
 	flex-direction: column;
+
 	justify-content: center;
 	align-items: center;
 }
@@ -169,7 +180,8 @@ main{
 .footer
 {
 
-	margin-top: 8px;
+	/*height: 100px;
+	width: 100px;*/
 }
 
 .titre-footer
@@ -180,7 +192,7 @@ main{
 .logo
 {
 	height: 35%;
-	width: 5%;
+	width: 8%;
 	/*border-radius: 50% 50% ;*/
 	
 }
@@ -188,7 +200,7 @@ main{
 .logo2
 {
 	height: 35%;
-	width: 5%;
+	width: 8%;
 	border-radius: 50%;
 	
 
@@ -209,6 +221,7 @@ main{
 
 hr
 {
+	margin-top: 3px;
 	border: solid 2px black;
 	width: 50%;
 	margin:auto;
@@ -222,11 +235,17 @@ hr
 .Formulaire
 {
 	font-family: 'Lobster', cursive;
-	display: flex;	
-	flex-direction: column;
-	justify-content: space-between;
-	height: 40vh;
+	/*display: flex;	*/
+	/*flex-direction: column;*/
+	/*justify-content: space-between;*/
+	height: 50vh;
 	width: 50%;
+	background-color: grey;
+	border-radius: 5%;
+	background: rgb(251,89,63);
+	background: linear-gradient(90deg, rgba(251,89,63,1) 0%, rgba(212,53,209,1) 80%);
+
+
 
 }
 .bouton
@@ -245,7 +264,7 @@ hr
 	cursor: pointer;
 	transition: color 0.5s linear;
 	margin-bottom: 3%;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
 
 
 
@@ -258,17 +277,7 @@ hr
 	background-color: red;
 }
 
-/*.formulaire*/
 
-{
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 1%;
-	margin-top: 3%;
-
-	
-	
-}
 .bloc1
 {
 	display: flex;
@@ -419,11 +428,35 @@ td
 	justify-content: space-around;
 	flex-direction: column;
 	align-items: center;
-	height: 50vh;
+	height: 20vh;
+	
 
 }
 .option
 {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 40%;
+	height: 70%;
+	margin:auto;/*height: 10vh;*/
+	/*width: 50vh;*/
+	
+}
+.bordure
+{
+	border-radius: 10%;
+}
+form
+{
+	margin-top: 5%;
+}
+.bouton-ann-conf
+{
+	display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/
+	/*height: 10vh;*/
+	margin-top: 3px;
+	
 }
