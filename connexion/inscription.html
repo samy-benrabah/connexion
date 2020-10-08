@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inscription</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="connexion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="page2">
+
+        <header>
+            <h1>Inscription</h1>
+        </header>
+        <main>
+            <div class="pic-login">
+                <img src="Image/login.png" alt="logo login">
+            </div>
+            <form action="connexion.html">
+                <table>
+                    <div class="formulaire">
+                        <div class="input2">
+                            <div class="bloc1">
+                                <div class="login">
+                                    <label for="login">Login </label>
+                                    <input class="case" id="login" type="login" name="login" placeholder="Veuillez entrer votre adresse email" required="">
+                                </div>
+                                <div class="mdp">
+                                    <label for="motdepasse">Mot de passe </label>
+                                    <input class="case" id="motdepasse" type="text" name="mot de passe" placeholder="Veuillez entrer votre mot de passe" required="motdepasse">
+                                </div>
+                                <div class="confirm-mdp">
+                                    <label for="confirm-motdepasse">Confirmation Mot de passe </label>
+                                    <input class="case" id="confirm-motdepasse" type="text" name="confirm-motdepasse" placeholder="Veuillez confirmer votre mot de passe" required="motdepasse">
+                                </div>
+                                <div class="sexe">
+                                    <div>
+                                        <input class="bordure" type="radio" value="monsieur" name="sexe">Monsieur<br>
+                                    </div>
+                                    <div>
+                                        <input class="bordure" type="radio" value="madame" name="sexe">Madame
+                                    </div>
+                                </div>
+                                <div class="nom">
+                                    <label for="nom">Nom </label>
+                                    <input class="case" id="login" type="nom" name="login" placeholder="Veuillez entrer votre nom" required="">
+                                </div>
+                                <div class="prenom">
+                                    <label for="prenom">Prénom </label>
+                                    <input class="case" id="prenom" type="prenom" name="prenom" placeholder="Veuillez entrer votre prénom" required="">
+                                </div>
+                                <div class="email">
+                                    <label for="adresse-mail">Email </label>
+                                    <input class="case" id="email" type="email" name="email" placeholder="Veuillez entrer votre email" required="email">
+                                </div>
+                                <div class="tel">
+                                    <label for="telephone">Téléphone</label>
+                                    <input class="case" id="telephone" type="telephone" name="telephone" placeholder="Veuillez entrer numéro de téléphone" required="0">
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="hobbies">
+                                    <label for="hobbies">Hobbies</label>
+                                    <select class="select" name="hobbies">
+									<option value="Choisir">-- Choisir --</option>
+									<option>Lecture</option>
+									<option>Randonner</option>
+									<option>Equitation</option>
+									<option>Sport en équipe</option>
+									<option>Arts</option>
+									<option>Danse</option>
+								</select>
+                                </div>
+                                <div class="etudes">
+                                    <label for="etudes">Niveau d'étude</label>
+                                    <select class="select" name="etudes">
+									<option class="choisir" value="Choisir"><span style="text-align: center;"> -- Choisir --</span></option>
+									<option>Doctorat (I)</option>
+									<option>Master (I)</option>
+									<option>Maitrise (II)</option>
+									<option>Licence (II)</option>
+									<option>DEUG,BTS,DUT,DEUST (III)</option>
+									<option>Baccalauréat (IV)</option>
+									<option>CAP (V)</option>
+								</select>
+                                </div>
+
+                                <div class="presentation">
+                                    <label for="presentation">Présentation</label>
+                                    <div class="presentation1">
+                                        <textarea value="presentation" class="presentation-int" id="presentation" type="presentation" name="presentation" placeholder="Présentez vous !" required="text"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="condition-bouton">
+                            <div class="check">
+                                <input type="checkbox" id="checkbox" name="checkbox" required="checked">
+                                <a href=""> <label class="condi-utilisation" for="condi-utilisation">J'accepte les conditions d'utilisations</label></a>
+                            </div>
+
+
+
+                            <div class="bouton2">
+                                <div class="btn1">
+                                    <input class="connex" type="submit" value="Valider">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </table>
+            </form>
+
+
+        </main>
+
+        <footer>
+            <div class="social">
+                <div class="p">
+                    <p>Ou connectez vous avec</p>
+                </div>
+                <div class="fg">
+                    <a href="https://fr-fr.facebook.com/"><img class="facebook" src="Image/facebook.png" alt="logo facebook"></a>
+                    <a href="https://www.google.com/account/about/"> <img class="google" src="Image/google.png" alt="logo google"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>
